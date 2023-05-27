@@ -1,0 +1,119 @@
+{
+  "students": [
+    {
+      "username": "Ibrahim",
+      "email": "test@test.com",
+      "password": "123",
+      "subjects": [],
+      "id": 1
+    },
+    {
+      "username": "Ali",
+      "email": "ali@gmail.com",
+      "password": "123",
+      "subjects": [
+        {
+          "name": "اللغة العربية",
+          "id": "2",
+          "degree": 1,
+          "fullMark": 1,
+          "percentage": 100
+        },
+        {
+          "name": "الرياضيات",
+          "id": "3",
+          "degree": 1,
+          "fullMark": 2,
+          "percentage": 50
+        },
+        {
+          "name": "الجغرافيا",
+          "id": "4",
+          "degree": 0,
+          "fullMark": 2,
+          "percentage": 0
+        }
+      ],
+      "id": 3
+    },
+    {
+      "username": "mohamed",
+      "email": "tesmt@test.com",
+      "password": "123",
+      "id": 5
+    }
+  ],
+  "doctor": [
+    {
+      "username": "admin",
+      "email": "admin@admin.com",
+      "password": "123",
+      "id": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "اللغة العربية",
+      "questions": [
+        {
+          "question": "عدد حروف اللغه العربية",
+          "answer1": "24",
+          "answer2": "26",
+          "answer3": "27",
+          "answer4": "28",
+          "correctAnswer": "28"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "name": "الرياضيات",
+      "questions": [
+        {
+          "question": "5-2",
+          "answer1": "3",
+          "answer2": "2",
+          "answer3": "4",
+          "answer4": "1",
+          "correctAnswer": "3"
+        },
+        {
+          "question": "10*2",
+          "answer1": "30",
+          "answer2": "20",
+          "answer3": "50",
+          "answer4": "24",
+          "correctAnswer": "20"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "name": "الجغرافيا",
+      "questions": [
+        {
+          "question": "اين تقع مصر",
+          "answer1": "شمال افريقيا",
+          "answer2": "وسط افريقيا",
+          "answer3": "شمال غرب افريقيا",
+          "answer4": "شمال شرق افريقيا",
+          "correctAnswer": "شمال شرق افريقيا"
+        },
+        {
+          "question": "ما هو اطول نهر في العالم",
+          "answer1": "نهر  الفرات",
+          "answer2": "نهر الكونغو",
+          "answer3": "نهر النيل",
+          "answer4": "نهر الاردن",
+          "correctAnswer": "نهر النيل"
+        }
+      ],
+      "id": 4
+    }
+  ],
+  "login": [
+    {
+      "id": 1
+    }
+  ]
+}
